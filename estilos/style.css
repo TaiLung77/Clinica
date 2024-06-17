@@ -186,7 +186,7 @@ nav ul li a:hover {
   margin-top: 15px;
 }
 .hero-section .content button  {
-  background: #fff;
+  background: skyblue;
   padding: 12px 30px;
   border: none;
   font-size: 1rem;
@@ -195,9 +195,9 @@ nav ul li a:hover {
   cursor: pointer;
   font-weight: 500;
   transition: 0.2s ease;
-}
+} 
 .hero-section .content button:hover{
-  color: #fff;
+  color: black;
   background: #5DADE2;
 }
 

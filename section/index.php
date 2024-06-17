@@ -68,7 +68,7 @@
           revolucionaria diseñada para simplificar y mejorar la gestión de tu
           historial médico.
         </p>
-        <a href="../section/login.php"><button>Iniciar Sesión</button></a>
+        <a href="../section/login.php"  style="color:#FF0000;" ><button>Iniciar Sesión</button></a>
       </div>
     </section>
     <div class="container-footer">

@@ -9,7 +9,7 @@
                 <!-- <li>
                 <a href="/index.html">Inicio</a>
                 </li>-->
-                <li>
+                
                 <!--<a href="../section/prueba.php">Historia clinica</a>
                 </li>-->
                 
@@ -25,7 +25,7 @@
                 <span class="line"></span>
             </div>
             </nav>
-            <div class="menubar">
+            <!--<div class="menubar">
             <ul>
                 <li>
                 <a href="#">Inicio</a>
@@ -37,5 +37,5 @@
                 <a href="../section/login.php">Iniciar Sesión</a>
                 </li>
             </ul>
-            </div>
+            </div>-->
 </header>

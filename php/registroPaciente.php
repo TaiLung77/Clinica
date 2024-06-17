@@ -28,7 +28,8 @@ apellidoMaterno,
 fechaNacimiento,
 tipoDoumento,
 documentoIdentidad,
-sexo)
+sexo,
+grupoSanguineo)
 VALUES
 (
 '$primer',
@@ -38,9 +39,22 @@ VALUES
 '$fecha',
 '$identidad',
 '$documentoIdentidad',
-'$genero'
+'$genero',
+'$grupoSanguineo'
 )";
 
+$verificar_documento=mysqli_query($conexion, "SELECT*FROM clinica.persona WHERE documentoIdentidad='$documentoIdentidad'");
+if(mysqli_num_rows($verificar_documento) > 0 ){
+
+    echo'
+      <script>
+        alert("Este Documento de identidad ya esta registrado. Por favor verifique que los datos sean correctos.");
+        window.location="../section/bienvenida.php";
+      </script>
+
+    ';  
+    exit();
+}
 $registrar = mysqli_query($conexion,$query);   
 
 $id=0;
@@ -59,13 +73,11 @@ if (mysqli_num_rows($registrar) > 0) {
 
 $queryPaciente = "INSERT INTO clinica.paciente
 (
-grupoSanguineo,
 estadoCivil,
 historialMedico,
 idPersona)
 VALUES
 (
-'$grupoSanguineo',
 '$estadoCivil',
 '$historial',
 '$id');
@@ -73,4 +85,5 @@ VALUES
   
 $registrar2 = mysqli_query($conexion,$queryPaciente);
 
-header("location:../section/bienvenida.html");
+
+header("location:../section/bienvenida.php");

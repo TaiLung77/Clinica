@@ -35,9 +35,6 @@ if ($validar == null || $validar = '') {
     include("header_bienvenida.php");
     ?>
 
-        <ul class="menubar">
-    <li><a href="#" id="logoutButton" class="logout-button">Cerrar Sesión</a></li>
-</ul>
 
     <div class="hamburger">
             <span class="line"></span>
