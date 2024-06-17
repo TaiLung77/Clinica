@@ -6,14 +6,14 @@ body {
     color: #333; /* Color de texto negro */
 }
 
-.container {
+/* .container {
     max-width: 800px;
     margin: auto;
-    background: #83D9FE; /* Nuevo color de fondo */
+    background: #83D9FE;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+} */
 
 h1 {
     text-align: center;

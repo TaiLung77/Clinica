@@ -73,4 +73,4 @@
         </div>
     </form>
 </div>
-<script src="js/formulario.js"></script>
+
