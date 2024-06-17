@@ -17,6 +17,7 @@ body {
   height: auto;
   display: flex;
   gap: 50px;
+  top: -10px;
 }
 
 .container-2 {
