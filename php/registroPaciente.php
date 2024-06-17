@@ -37,7 +37,7 @@ if (!validarCampo($_POST['historial'])) {
 // Si hay errores, mostrar mensajes de error con una alerta
 if (!empty($errores)) {
     echo '<script>';
-    echo 'alert("Error en formulario");';
+    echo 'alert("Se encontraron los siguientes errores: \n' . implode('\n', $errores) . '");';
     echo 'window.history.back();';
     echo '</script>';
     exit();
