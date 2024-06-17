@@ -98,7 +98,7 @@ nav {
 }
 
 .content {
-    /* flex: 1; */
+    flex: 1;
     padding: 20px;
     background-color: #b3e5fc;
     border-radius: 8px;
@@ -187,28 +187,21 @@ nav {
 /* Estilos para el botón de búsqueda y el input */
 /* Estilos para el botón de búsqueda y el input */
 .search-container {
-     display: flex; 
-     align-items: center; 
-     align-self: center; 
-    background-color: orange; 
-     padding: 30; 
-     gap: 50; 
-    margin: auto;
-    width: 100%;
-    background-color: green;
+    display: flex;
+    align-items: center;
 }
 
 #search-input {
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    /* margin-right: 8px; */
+    margin-right: 8px;
     width: 300px;
-    /* position: absolute; */
-    /* top: -80px; Puedes ajustar este valor para cambiar la distancia hacia arriba */
-    right: 500px;
-    /* background-color: red;     */
-    z-index: 10000;
+    position: absolute;
+    top: -80px; /* Puedes ajustar este valor para cambiar la distancia hacia arriba */
+    right: 850px;
+
+    
 }
 
 #search-button {
@@ -224,22 +217,12 @@ nav {
     background-size: 20px; /* Ajusta el tamaño de la imagen de la lupa */
     background-repeat: no-repeat;
     background-position: center; /* Centra la imagen dentro del botón */
-    /* position: absolute;   */
-    /* top: -76px; Puedes ajustar este valor para cambiar la distancia hacia arriba */
-    /* right: 750px; */
+    position: absolute;
+    top: -76px; /* Puedes ajustar este valor para cambiar la distancia hacia arriba */
+    right: 750px;
 
 
 }
-
-
-/* #ddd {
-    display: flex;
-    align-items: center;
-    align-self: center;
-    background-color: orange;
-    padding: 30;
-    gap: 50;
-} */
 
 #search-button:hover {
     background-color: #0056b3;
