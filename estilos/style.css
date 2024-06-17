@@ -293,7 +293,6 @@ footer .redes-footer .fa-instagram:hover{
 }
 .form-container {
   margin: 5rem;
-  background-color: #fff;
   padding: 20px;
   margin: 0 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
@@ -308,7 +307,6 @@ footer .redes-footer .fa-instagram:hover{
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
-  fill: #6bb7d8;
 }
 
 

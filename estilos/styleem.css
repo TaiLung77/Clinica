@@ -45,15 +45,14 @@ legend {
 }
 
 .row label {
-    flex: 1;
-    min-width: 120px;
+    flex: 1 0 120px;
     margin-right: 10px;
 }
 
 .row input,
 .row select,
 .row textarea {
-    flex: 2;
+    flex: 2 0 200px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -68,7 +67,6 @@ textarea {
 }
 
 input[type="file"] {
-    flex: 2;
     padding: 6px;
 }
 
