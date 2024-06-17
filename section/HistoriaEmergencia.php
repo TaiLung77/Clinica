@@ -24,7 +24,6 @@
             <input type="text" id="search-input" name="search-input" placeholder="Ingrese Documento de identidad">
             <button id="search-button" type="submit">Buscar</button> <!-- Añadido texto al botón -->
         </div>
-        <div id="lista" style="display: none;"></div>
 
         <div class="form-container">
             <h1>Historia Clínica de Emergencia</h1>
