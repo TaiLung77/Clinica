@@ -34,6 +34,7 @@ if (!validarCampo($_POST['historial'])) {
     $errores[] = "El historial médico no puede estar vacío o contener solo espacios.";
 }
 
+
 // Si hay errores, mostrar mensajes de error con una alerta
 if (!empty($errores)) {
     echo '<script>';

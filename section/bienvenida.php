@@ -5,6 +5,7 @@
     <title>Bienvenida</title>
     <link rel="stylesheet" href="../estilos/bienvenida.css">
     <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="../estilos/styleem.css" />
     <script src="../js/script.js" defer></script>
 </head>
 <body>
