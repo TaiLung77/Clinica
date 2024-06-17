@@ -14,9 +14,9 @@ if (!validarCampo($_POST['primerNombre'])) {
     $errores[] = "El primer nombre no puede estar vacío o contener solo espacios.";
 }
 
-if (!validarCampo($_POST['segundoNombre'])) {
-    $errores[] = "El segundo nombre no puede estar vacío o contener solo espacios.";
-}
+// if (!validarCampo($_POST['segundoNombre'])) {
+//     $errores[] = "El segundo nombre no puede estar vacío o contener solo espacios.";
+// 
 
 if (!validarCampo($_POST['apellidoPaterno'])) {
     $errores[] = "El apellido paterno no puede estar vacío o contener solo espacios.";
